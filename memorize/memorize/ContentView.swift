@@ -17,7 +17,6 @@ struct ContentView: View {
             CardView()
         }
         .foregroundColor(.orange)
-        .padding()
     }
 }
 
@@ -36,20 +35,7 @@ struct CardView: View{
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 #Preview {
     ContentView()
 }
